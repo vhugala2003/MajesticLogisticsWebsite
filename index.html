@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majestic by Vhugala Nthemeni | Logistics & Transport</title>
+    <meta
+      name="description"
+      content="Majestic by Vhugala Nthemeni delivers dependable trucking, route planning, and warehouse support services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+        <div class="brand-wrap">
+          <a class="brand-mark" href="#home" aria-label="Majestic home">M</a>
+          <div class="brand-text">
+            <span class="brand-name">Majestic</span>
+            <small>by Vhugala Nthemeni</small>
+          </div>
+        </div>
+
+        <nav class="nav" id="main-nav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#fleet">Fleet</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="nav-button" href="#contact">Request a quote</a>
+          <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <section class="hero" id="home">
+          <div class="hero-visual" aria-label="Majestic black-and-gold truck artwork rendered in 3D">
+            <div class="scene3d" data-three-scene>
+              <img class="scene-fallback" src="majestic-truck.png" alt="Black-and-gold Majestic tractor-trailer at night" fetchpriority="high" />
+              <canvas class="scene-canvas" aria-hidden="true"></canvas>
+            </div>
+            <div class="hero-scrim" aria-hidden="true"></div>
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow">Trucking · Freight · Logistics</p>
+            <h1>Majestic<span>by Vhugala Nthemeni</span></h1>
+            <p class="lead">Reliable road freight, planned around your business.</p>
+            <div class="cta-row">
+              <a class="primary" href="#contact">Request a quote</a>
+              <a class="secondary" href="#services">Explore services</a>
+            </div>
+          </div>
+          <a class="scroll-cue" href="#services" aria-label="Scroll down to explore services">
+            <span class="scroll-line" aria-hidden="true"></span>
+            <span>Scroll to explore</span>
+          </a>
+        </section>
+
+        <section id="services" class="services">
+          <div class="section-heading">
+            <p class="eyebrow accent">Our services</p>
+            <h2>Professional logistics that keep your supply chain moving.</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card tilt-card">
+              <div class="service-visual service-bg--truck"></div>
+              <div class="service-content">
+                <div class="icon" aria-hidden="true">FRT</div>
+                <h3>Regional trucking</h3>
+                <p>
+                  Flexible road freight movement for time-sensitive deliveries and
+                  recurring daily routes.
+                </p>
+                <a class="service-link" href="#contact" data-service-request="Regional trucking">Discuss this service <span aria-hidden="true">+</span></a>
+              </div>
+            </article>
+
+            <article class="service-card tilt-card">
+              <div class="service-visual service-bg--warehouse"></div>
+              <div class="service-content">
+                <div class="icon" aria-hidden="true">WH</div>
+                <h3>Warehouse support</h3>
+                <p>
+                  Secure storage, inventory handling, and efficient distribution as
+                  part of your operations.
+                </p>
+                <a class="service-link" href="#contact" data-service-request="Warehouse support">Discuss this service <span aria-hidden="true">+</span></a>
+              </div>
+            </article>
+
+            <article class="service-card tilt-card">
+              <div class="service-visual service-bg--route"></div>
+              <div class="service-content">
+                <div class="icon" aria-hidden="true">RT</div>
+                <h3>Route planning</h3>
+                <p>
+                  Smart scheduling and routing that reduce delays, keep costs down,
+                  and improve reliability.
+                </p>
+                <a class="service-link" href="#contact" data-service-request="Route planning">Discuss this service <span aria-hidden="true">+</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="fleet" class="fleet panel-section">
+          <div class="panel-copy">
+            <p class="eyebrow accent">Our fleet</p>
+            <h2>Dependable transport for every type of cargo.</h2>
+            <p>
+              Whether you need regular deliveries or urgent cargo support, our
+              fleet is built to handle time-sensitive freight with care and
+              precision.
+            </p>
+          </div>
+
+          <div class="fleet-gallery">
+            <div class="fleet-photo photo-one" role="img" aria-label="Freight truck on the road"></div>
+            <div class="fleet-photo photo-two" role="img" aria-label="Majestic branded tractor-trailer"></div>
+            <div class="fleet-photo photo-three" role="img" aria-label="Heavy transport truck"></div>
+          </div>
+        </section>
+
+        <section id="about" class="about">
+          <div class="section-heading">
+            <p class="eyebrow accent">Why choose us</p>
+            <h2>Professional service with a strong focus on trust.</h2>
+          </div>
+
+          <div class="feature-list">
+            <div class="feature-item glass-panel">
+              <span class="feature-number">01</span>
+              <div>
+                <h3>Clear communication</h3>
+                <p>Reliable updates from dispatch through to final delivery.</p>
+              </div>
+            </div>
+            <div class="feature-item glass-panel">
+              <span class="feature-number">02</span>
+              <div>
+                <h3>Safety-first operations</h3>
+                <p>Careful handling and dependable standards throughout transit.</p>
+              </div>
+            </div>
+            <div class="feature-item glass-panel">
+              <span class="feature-number">03</span>
+              <div>
+                <h3>Tailored logistics plans</h3>
+                <p>Custom solutions designed around your business needs and goals.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="contact-section">
+          <div class="contact-copy">
+            <p class="eyebrow accent">Get in touch</p>
+            <h2>Tell us what needs moving.</h2>
+            <p>Share a few details and your quote request will open as a ready-to-send WhatsApp message.</p>
+            <a class="contact-phone" href="tel:0694989914">Call 069 498 9914</a>
+            <a class="contact-whatsapp" href="https://wa.me/27694989914" target="_blank" rel="noopener noreferrer">Open WhatsApp</a>
+          </div>
+
+          <form class="quote-form" id="quote-form">
+            <div class="form-row">
+              <label for="quote-name">Your name</label>
+              <input id="quote-name" name="name" autocomplete="name" required />
+            </div>
+            <div class="form-row">
+              <label for="quote-phone">Your phone number</label>
+              <input id="quote-phone" name="phone" type="tel" autocomplete="tel" required />
+            </div>
+            <div class="form-row">
+              <label for="quote-service">Service</label>
+              <select id="quote-service" name="service" required>
+                <option value="">Choose a service</option>
+                <option>Regional trucking</option>
+                <option>Warehouse support</option>
+                <option>Route planning</option>
+                <option>Other logistics request</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="quote-route">Pickup and delivery locations</label>
+              <input id="quote-route" name="route" placeholder="From / To" required />
+            </div>
+            <div class="form-row form-row--wide">
+              <label for="quote-details">Cargo and timing details</label>
+              <textarea id="quote-details" name="details" rows="4" placeholder="Cargo type, load size, and preferred dates"></textarea>
+            </div>
+            <button class="primary quote-submit" type="submit">Prepare WhatsApp quote request</button>
+            <p class="form-note" id="quote-status" aria-live="polite">Your information is used only to prepare your message.</p>
+          </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#home">Majestic <span>by Vhugala Nthemeni</span></a>
+      <span>Trucking &amp; Logistics</span>
+      <a href="tel:0694989914">069 498 9914</a>
+      <small class="copyright">© <span id="copyright-year">2026</span> Majestic by Vhugala Nthemeni. All rights reserved.</small>
+      <small class="creator-credit">Created by Vhugala Nthemeni</small>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
